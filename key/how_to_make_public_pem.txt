@@ -1,2 +1,2 @@
-openssl rsa -pubout -outform PEM < private.pem  > public.pem >/dev/null
+openssl rsa -pubout -outform PEM < private.pem > public.pem >/dev/null
 

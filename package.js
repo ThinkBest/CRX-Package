@@ -369,6 +369,7 @@ pack = function(zipfile, crxfile, public_key, private_key ,callback){
 							callback(true);
 						}
 						else{
+							data = data.replace(/-.*-/g,'').trim();
 							var publicKey = new Buffer(data, 'base64');
 							crx_header.pub = publicKey;
 							crx_header.pub_len_hex.writeUInt16LE(crx_header.pub.length,0);

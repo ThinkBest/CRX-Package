@@ -6,7 +6,6 @@ fs = require('fs'),
 path = require('path'),
 util = require('util'),
 crypto = require('crypto'),
-exec = require('child_process').exec,
 async = require('async'),
 UglifyJS = require('uglify-js'),
 JSZip = require("jszip");

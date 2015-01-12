@@ -1,0 +1,25 @@
+{
+  "name": "crx-packager",
+  "version": "0.0.1",
+  "description": "A Chrome extension packager",
+  "main": "package.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "uglify-js": "^2.4.16",
+    "jszip": "^2.4.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThinkBest/CRX-Package"
+  },
+  "keywords": [
+    "Chrome"
+  ],
+  "author": "xutao.xut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThinkBest/CRX-Package/issues"
+  },
+  "homepage": "https://github.com/ThinkBest/CRX-Package"
+}
